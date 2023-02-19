@@ -14,13 +14,14 @@
 }
 /* Section CSS */
 .section_main_img{
-    background-image: url('bg_img.jpeg');
+    background-image: url('bg_img.jpeg'); 
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
 }
 .section_main_img_txt{
     color: white;
+    width: 80%;
     background-color:  #1979ada5;
     padding: 5%;
     text-align: left;
@@ -93,4 +94,7 @@
     padding: 0.5%;
     margin-left: -0.5%;
     margin-bottom: -1%;
+}
+.footer_icon2{
+    margin-top: -1%;
 }
