@@ -1,9 +1,18 @@
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    border: 3px solid #909093;
+}
 /* Header CSS */
 .logo_icon{
     background-color: #2b2e33;
 }
 .logo_icon img{
-    width: 50%;
+    width: 100%;
+    height: 100%    ;
     align-items: center;
 }
 .txt_address{
@@ -13,42 +22,42 @@
     background-color: #f8f8f8;
 }
 /* Section CSS */
-.section_main_img{
+ .section_main_img{
     background-image: url('bg_img.jpeg'); 
-    background-size: cover;
+    background-size: cover; 
     background-repeat: no-repeat;
     height: 500px;
-}
+    display: flex;
+} 
 .section_main_img_txt{
     color: white;
-    width: 80%;
     background-color:  #1979ada5;
     padding: 5%;
     text-align: left;
+    width: 80%;
 }
 .section_main_img_txt h4{
-    margin-left: 10%;
+    margin-left: 3%;
 }
 .section_main_img_txt hr{
     width: 15%;
     height: 2%;
     background-color: white;
-    margin-left: 10%;
+    margin-left: 3%;
 }
 .section_main_img_txt h2{
     font-weight: 1000;
     opacity: 50%;
-    font-size: 800%;
+    font-size: 90px;
+    margin-left: 3%;
     position: absolute;
-    margin-left: 10%;
+    top: 21%;
 }
 .section_main_img_txt h3{
     font-weight: bold;
-    font-size: 500%;
+    font-size: 80px;
     text-align: left;
-    position: absolute;
-    top: 35%;
-    margin-left: 10%;
+    margin-left: 3%;
 }
 .section_main_img_txt h3 strong{
     color: #e61f84;
@@ -64,6 +73,7 @@
     background-color: #f8f8f8;
 }
 .about_our_heading{
+    margin-left: 0.5%;
     border-left: 8px solid #e61f84;
 }
 /* About us company CSS */
@@ -88,7 +98,7 @@
     text-transform: uppercase;
     padding: 3%;
 }
-.footer_icon2 hr,.footer_hr hr{
+.footer_icon2 hr{
     background-color: white;
     width: 10%;
     padding: 0.5%;
